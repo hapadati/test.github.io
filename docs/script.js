@@ -32,3 +32,4 @@ thumbFlame.addEventListener('click', function(event) {
     mainMsg.innerText = event.target.alt;
   }
 });
+
