@@ -1,10 +1,10 @@
 let album = [
   {src 'HBDImage.jpg', msg: HAPPYBIRTHDAY!MANO!},
+  {src 'HBDImage.jpg', msg: HAPPYBIRTHDAY!},
   {src 'HBDImage.jpg', msg: HAPPYBIRTHDAY!MANO!},
+  {src 'HBDImage.jpg', msg: HAPPYBIRTHDAY!},
   {src 'HBDImage.jpg', msg: HAPPYBIRTHDAY!MANO!},
-  {src 'HBDImage.jpg', msg: HAPPYBIRTHDAY!MANO!},
-  {src 'HBDImage.jpg', msg: HAPPYBIRTHDAY!MANO!},
-  {src 'HBDImage.jpg', msg: HAPPYBIRTHDAY!MANO!},
+  {src 'HBDImage.jpg', msg: HAPPYBIRTHDAY!},
 ];
 
 let mainImage = document.createElement('img');
@@ -25,3 +25,10 @@ for (let i = 0; i < album.length; i++) {
   thumbImage.setAttribute('alt', album[i].msg);
   thumbFlame.insertBefore(thumbImage, null);
 }
+
+thumbFlame.addEventListener('click', function(event) {
+  if (event.target.src) {
+    mainImage.src = event.target.src;
+    mainMsg.innerText = event.target.alt;
+  }
+});
