@@ -55,5 +55,5 @@ function switchImage(newIndex) {
     mainImage.classList.remove('fade-out');
     mainMsg.classList.remove('fade-out');
     currentIndex = newIndex;
-  }, 1000); // 1秒後に画像を切り替える
+  }, 10000); // 10秒後に画像を切り替える
 }
