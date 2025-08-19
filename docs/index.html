@@ -6,108 +6,19 @@
   <title>Happy Birthday MANO</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Noto+Serif+JP&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      background-color: #000;
-      color: #fff;
-      font-family: 'Noto Serif JP', serif;
-      overflow-x: hidden;
-    }
-
-    header, section, footer {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 4rem 2rem;
-      text-align: center;
-    }
-
-    header {
-      min-height: 100vh;
-      background: #000;
-    }
-
-    header img {
-      max-width: 90%;
-      height: auto;
-      border-radius: 16px;
-      box-shadow: 0 0 40px rgba(255, 255, 255, 0.1);
-      animation: fadeIn 2s ease-in-out;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(30px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    .message {
-      font-size: 1.25rem;
-      line-height: 2;
-      max-width: 800px;
-      margin-top: 3rem;
-    }
-
-    .cta-button {
-      margin-top: 4rem;
-      padding: 1rem 2rem;
-      border: 2px solid #fff;
-      color: #fff;
-      background: transparent;
-      font-size: 1rem;
-      border-radius: 50px;
-      cursor: pointer;
-      transition: all 0.3s ease;
-    }
-
-    .cta-button:hover {
-      background: #fff;
-      color: #000;
-    }
-
-    footer {
-      font-size: 0.9rem;
-      opacity: 0.6;
-      padding-bottom: 2rem;
-    }
-
-    @media (max-width: 600px) {
-      .message {
-        font-size: 1rem;
-        padding: 0 1rem;
-      }
-
-      .cta-button {
-        width: 90%;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <img src="HBDImage.jpg" alt="Happy Birthday MANO">
+    <img src="HBDImage1.jpg" alt="Happy Birthday MANO">
   </header>
 
-  <div id="common">
-    <div id="gallery">
-      <nav class="main">
-      </nav>
-      <nav class="thumb">
-      </nav>
-    </div>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-  </div>
-    
   <section data-aos="fade-up">
     <div class="message">
-    <p>初配信の5/28から、今日10/28まで配信頑張れて偉い！<br>154日間(まあ休みあったけど...)毎日楽しませてくれてありがとう！<br>これからも体調に気をつけて配信頑張ってね！​<br>書ききれなかったから下のリンクを押してね！</p>
+      <p>初配信の5/28から、今日10/28まで配信頑張れて偉い！<br>
+         154日間(まあ休みあったけど...)毎日楽しませてくれてありがとう！<br>
+         これからも体調に気をつけて配信頑張ってね！​<br>
+         書ききれなかったから下のリンクを押してね！</p>
     </div>
 
     <a href="https://00m.in/Hapa">
@@ -116,13 +27,12 @@
   </section>
 
   <footer>
-    このページは、安知谷まののために作りました。
+    このページは、安知谷まののために作りました。<br>
     ©HSDT
   </footer>
 
+  <script src="script.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+  <script>AOS.init();</script>
 </body>
 </html>
