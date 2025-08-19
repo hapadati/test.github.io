@@ -20,5 +20,5 @@ setInterval(() => {
     headerImage.src = album[currentIndex].src;
     headerImage.alt = album[currentIndex].msg;
     headerImage.classList.remove('fade-out');
-  }, 1000); // フェード時間
-}, 3000); // スライド間隔
+  }, 2000); // フェード時間
+}, 15000); // スライド間隔
