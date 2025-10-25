@@ -1,7 +1,7 @@
 // スライドショー用画像とメッセージのリスト
 const album = [
   { src: 'HBDImage.jpg', msg: 'HAPPY BIRTHDAY! MANO!　作成者 HeltezNor' },
-  { src: 'Aya.jpg', msg: '作成者 妖月' },
+  { src: 'aya.jpg', msg: '作成者 妖月' },
   { src: 'kanata.jpg', msg: '作成者 鎌鼬叶多' }
   { src: 'suama.jpg', msg: '作成者　すあま'}
 ];
