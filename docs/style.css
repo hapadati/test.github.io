@@ -87,3 +87,13 @@ footer {
     width: 90%;
   }
 }
+/* ヘッダー画像下のメッセージ */
+#photo-message {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  font-family: 'Playfair Display', 'Noto Serif JP', serif;
+  color: #fff;
+  opacity: 0.9;
+  transition: opacity 2s ease-in-out;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
