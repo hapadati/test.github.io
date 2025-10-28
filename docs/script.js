@@ -1,9 +1,9 @@
 // スライドショー用画像とメッセージのリスト
 const album = [
   { src: 'HBDImage.jpg', msg: 'HAPPY BIRTHDAY! MANO!　作成者 HeltezNor' },
-  { src: 'aya.jpg', msg: '作成者 妖月' },
-  { src: 'kanata.jpg', msg: '作成者 鎌鼬叶多' },
-  { src: 'suama.jpg', msg: '作成者　すあま'}
+  { src: 'aya.jpg', msg: 'Happy  birthday!!\nいつも楽しい配信ありがとう!!\nいろんな事を一緒にもっともーっと楽しんでいこうね!!作成者 妖月' },
+  { src: 'kanata.jpg', msg: 'まのママ、誕生日おめでとう🎉\n初めて出会った時はまさかここまで深い関係なるとは思わんかったな\nでも、色々助けてくれてありがとう\nまだまだ未熟なオレだけど、またこれからも仲良くしてくれると嬉しいな\nこれからもよろしくな！！！ 作成者 鎌鼬叶多' },
+  { src: 'suama.jpg', msg: 'お誕生日おめでとうございます！\nささやかながらお花を贈らせていただきます。作成者　すあま'}
 ];
 
 let currentIndex = 0;
